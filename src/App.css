@@ -1,0 +1,158 @@
+/* manepage */
+
+.meanpage{
+  text-align: center;
+  justify-content:flex;
+  
+}
+.content{
+  display: flex;
+}
+.right{
+  margin-left: 20%;
+  width: 80vb;
+  margin-top: 60px;
+  
+}
+.left{
+  text-align:justify;
+  justify-content: center;
+  margin-top: 30px;
+  width: 35%  ;
+  padding: 60px;
+  margin-left: 55px;
+}
+
+/* .box{
+  display: flex;
+  justify-content: space-around;
+}
+.logo    {
+
+  display: flex;
+} */
+ /* .nav{
+  justify-content: space-around;
+ } */
+/* about */
+.about   {
+  display: flex;
+  width: 100%;
+  height: 40vw;
+
+  
+}
+.top{
+  display: flex;
+}
+.l{
+    text-align:justify;
+  justify-content: center;
+  width: 40%;
+  padding: 5%;
+}
+.img{
+  margin-top: -88px;
+}
+.r{
+  width: 40%;
+  padding: 5%;
+
+}
+.socal {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  
+
+}
+.buttom{
+  /* border: red solid 2px;
+  background-color: gray;
+  width: 70%;
+  padding: 10%;
+  margin-left: 15%;
+  border-radius: 25px;
+  box-shadow: 100px gray; */
+ height: 45%;
+ margin-bottom: -32%;
+ z-index: 0;
+ padding: 15%;
+
+}
+
+.bg-img-icon{
+  
+  background-color:white;
+  border-radius: 100% ;
+  padding: 15px;
+  height: 80px;
+  width: 80px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 5;
+  box-shadow: 0 4px 10px black;
+
+}
+
+
+.img-icons{
+  height: 50px;
+  width: 40px;
+  justify-content: flex;
+  margin-top: 18px;
+  margin-left: 18px;
+  position: absolute;
+  z-index: 10;
+}
+
+/* .contect */
+.contact {
+  justify-content:space-around;
+  background-color: black;
+  width: 100vw;
+  height: 70vh;
+  
+}
+.h1{
+  text-align: center;
+}
+.cont_img{
+  justify-items: center;
+  align-items: center;
+  margin: 6%;
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 20%;
+  height: 4%;
+  padding: 10px;
+}
+
+.project {
+
+  
+}
+.contect {
+
+  
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right {
+    margin-left: 0;
+    width: 100vw;
+    margin-top: 20px;
+  }
+  .left {
+    width: 90vw;
+    padding: 20px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
