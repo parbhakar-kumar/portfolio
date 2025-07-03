@@ -1,15 +1,13 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import Logo from "../Logo/Logo";
 export default function Footer() {
   return (
     <footer className="bg-white border-y">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <Link to="/" className="flex items-center">
-             
-              <div className="logo     text-amber-600 text-2xl">My<p className='text-amber-500'>Portfloio</p></div>
-            </Link>
+          <Logo/>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
