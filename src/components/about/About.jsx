@@ -5,6 +5,10 @@ import { PiInstagramLogoFill } from "react-icons/pi";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaSquareGithub } from "react-icons/fa6";
 import Project from "../Project/Project";
+import aboutImg from '../../../img/about.png';
+import webImg from '../../../img/web.png';
+import apiImg from '../../../img/api.png';
+
 function About() {
   return (
     <div>
@@ -70,7 +74,7 @@ function About() {
           <div className="r">
             <img
               className=" img ml-64 h-1px w-1px"
-              src="/img/about.png"
+              src={aboutImg}
               alt="sorry"
             />
           </div>
@@ -81,7 +85,7 @@ function About() {
           <div className="w-1/2">
             <img
               className="img-icons z-10 absolute"
-              src="/img/web.png"
+              src={webImg}
               alt=""
             />
             <div className="bg-img-icon"></div>
@@ -97,7 +101,7 @@ function About() {
             </div>
           </div>
           <div className="w-1/2">
-            <img className="img-icons z-10 absolute" src="/img/api.png" />
+            <img src={apiImg} className="img-icons z-10 absolute" alt="" />
             <div className="bg-img-icon"></div>
             <div className="text-3xl font-extrabold">API Development</div>
             <div className="pt-5 font-bold m-2">

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from "react-router-dom";
-// import maneImg from "../img/mane.png";
+import maneImg from "../../../img/mane.png";
 import { FaLinkedin } from "react-icons/fa";
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { FaSquareXTwitter } from "react-icons/fa6";
@@ -76,7 +76,7 @@ function Home() {
             </div>
           </div>
           <div className="right md:w-2/3 w-full mt-6 md:mt-0 flex justify-center">
-            <img src="/img/mane.png" alt="sorry" className="max-w-full h-auto" />
+            <img src={maneImg} alt="sorry" className="max-w-full h-auto" />
           </div>
         </div>
       </div>

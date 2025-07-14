@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import * as emailjs from '@emailjs/browser';
+import contactImg from '../../../img/contact.jpeg';
 
 function Contact() {
   const form = useRef();
@@ -22,7 +23,7 @@ function Contact() {
         <h1 className="m- text-center mt- text-amber-300 text-5xl">📬 Contact Me</h1>
         <p className="text-3xl m-2 text-amber-400"> Have a question, project idea, or just want to connect? Feel free to send a message!</p>
         <div className="flex ">
-          <img className="cont_img" src="/img/contact.jpeg" alt="" />
+          <img className="cont_img" src={contactImg} alt="" />
           <div className="p-20">
             <form ref={form} onSubmit={sendEmail} action="">
               <div className="text-white m-1 ml-80">Enter your Name:
